@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ff6b6b, #6b6bff);
+}
+#name {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.card {
+  width: 250px;
+  min-height: 450px;
+  background: rgb(196, 161, 161); 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(15, 14, 14, 0.2); 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#imagenPKM {
+  width: 100%;
+  height: 100%; 
+}
+
+button {
+  background-color: #007BFF; 
+  
+    margin-top: 30px;
+    color: white; 
+    font-weight: bold;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 12px; 
+}
+#id {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
